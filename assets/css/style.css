@@ -74,6 +74,8 @@ body {
 .header-part {
     border: 0px solid #000;
     background: linear-gradient(180deg, rgba(140, 210, 210, 0.00) 0%, #FFF 41.46%, #FFF 85.73%, rgba(140, 210, 210, 0.50) 100%);
+    background-image: url('../images/bg.svg');
+    background-size: cover;
 }
 
 .header-part .navbar .navbar-brand img {
@@ -109,7 +111,7 @@ body {
     font-size: 84px;
     font-style: normal;
     font-weight: 300;
-    max-width: 60%;
+    max-width: 70%;
     margin-bottom: 80px;
 }
 
@@ -121,8 +123,8 @@ body {
 
 .banner-section .text-image-part .image-part {
     position: absolute;
-    right: -65px;
-    width: 85%;
+    right: -50px;
+    width: 84%;
     z-index: -1;
     bottom: 0;
 }
@@ -221,6 +223,7 @@ body {
     display: flex;
     justify-content: flex-end;
 }
+
 .navbar-brand{
     flex: 1;
 }
@@ -246,7 +249,7 @@ body {
 
 .top-footer-part .center-part .text-part p {
     color: #000;
-    font-size: 36px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: 27.5px;
@@ -294,11 +297,13 @@ body {
 .second-footer-part .link-barcode-part {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
 .second-footer-part .link-barcode-part .left-part h6 {
     color: #000;
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 500;
     letter-spacing: 4.8px;
     margin-bottom: 30px;
@@ -306,7 +311,7 @@ body {
 
 .second-footer-part .link-barcode-part .left-part p {
     color: #000;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 500;
     letter-spacing: 3.2px;
     margin-bottom: 0;
@@ -332,7 +337,7 @@ body {
 
 .second-footer-part .link-barcode-part .right-part .adress p {
     color: #000;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 500;
     letter-spacing: 3.2px;
     margin-bottom: 0;
@@ -371,246 +376,6 @@ body {
 
 .social-media-link-part a:hover {
     transform: scale(1.08);
-}
-
-
-@media screen and (max-width: 1660px) {
-    .header-part .navbar .navbar-nav .nav-link{
-        margin-right: 24px;
-    }
-    .banner-section .box-part{
-        gap: 16px;
-    }
-    .banner-section .box-part .box{
-        width: 48%;
-        height: 260px;
-    }
-    .container {
-        max-width: 95%;
-    }
-    .banner-section .left-part .text-part p{
-        max-width: 20%;
-    }
-}
-@media screen and (max-width: 1440px) {
-    .header-part .navbar .navbar-brand img {
-        width: 60%;
-    }
-    .header-part .navbar .navbar-nav .nav-link{
-        font-size: 24px;
-    }
-    .banner-section .left-part .text-part h2{
-        font-size: 70px;
-    }
-    .banner-section .left-part .text-part p{
-        font-size: 24px;
-    }
-    .banner-section .box-part .box h6{
-        font-size: 24px;
-    }
-    .banner-section .box-part .box p{
-        font-size: 18px;
-    }
-    .banner-section .text-image-part .image-part{
-        width: 76%;
-        right: -40px;
-    }
-    .banner-section .text-image-part .image-part .time-part{
-        font-size: 24px;
-        top: 38px;
-        right: 80px;
-    }
-    .banner-section .box-part .box{
-        height: 200px;
-    }
-    .ev-logo-part img{
-        width: 70%;
-    }
-}
-@media screen and (max-width: 1280px) {
-    .banner-section .left-part .text-part h2 {
-        font-size: 56px;
-    }
-    .header-part .navbar .navbar-nav .nav-link{
-        font-size: 20px;
-        margin-right: 20px;
-    }
-    .banner-section .box-part .box{
-        padding: 20px 14px;
-    }
-    .top-footer-part .center-part .text-part p{
-        font-size: 24px;
-    }
-    .top-footer-part .center-part .text-part .signIn-btn{
-        font-size: 24px;
-    }
-    .top-footer-part .left-part h2{
-        font-size: 80px;
-    }
-    .second-footer-part .link-barcode-part .left-part h6{
-        font-size: 26px;
-    }
-    .second-footer-part .link-barcode-part .left-part p, .second-footer-part .link-barcode-part .right-part .adress p{
-        font-size: 28px;
-    }
-    .social-media-part p{
-        font-size: 32px;
-    }
-}
-@media screen and (max-width: 1120px) {
-    .banner-section .box-part .box h6{
-        font-size: 18px;
-    }
-    .banner-section .box-part .box p{
-        font-size: 14px;
-    }
-    .banner-section .text-image-part .image-part .time-part {
-        font-size: 17px;
-        top: 32px;
-        right: 80px;
-    }
-    .banner-section .left-part .text-part .outline-btn{
-        font-size: 24px;
-    }
-}
-@media screen and (max-width: 1024px) {
-    .banner-section .box-part {
-        gap: 12px;
-        margin-bottom: 40px;
-    }
-    .banner-section .box-part .box{
-        height: 170px;
-    }
-    .banner-section .left-part .text-part h2 {
-        font-size: 46px;
-        margin-bottom: 40px;
-    }
-    .banner-section .left-part .text-part p{
-        margin-bottom: 40px;
-    }
-    .top-footer-part .left-part h2{
-        font-size: 60px;
-    }
-    .second-footer-part .link-barcode-part .left-part h6 {
-        font-size: 22px;
-    }
-    .second-footer-part .link-barcode-part .left-part p, .second-footer-part .link-barcode-part .right-part .adress p {
-        font-size: 20px;
-    }
-    .social-media-part{
-        max-width: 90%;
-    }
-}
-@media screen and (max-width:991px) {
-    .banner-section .box-part{
-        margin-top: 30px;
-        gap: 20px;
-    }
-    .banner-section .ev-logo-part {
-        display: flex;
-        justify-content: center;
-    }
-    .banner-section .box-part .box h6 {
-        font-size: 22px;
-    }
-    .banner-section .box-part .box p {
-        font-size: 18px;
-    }
-    .banner-section .text-image-part .image-part {
-        width: 80%;
-    }
-    .top-footer-part{
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-    .top-footer-part .right-part, .top-footer-part .center-part{
-        flex: auto;
-    }
-    .second-footer-part .link-barcode-part{
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-    .second-footer-part .link-barcode-part .left-part{
-        width: 100%;
-        text-align: center;
-    }
-    .second-footer-part{
-        padding: 50px 0;
-    }
-    .social-media-part{
-        padding-top: 50px;
-    }.social-media-link-part a img{
-        width: 40px;
-    }
-    .banner-section .text-image-part .image-part{
-        right: -20px;
-    }
-}
-@media screen and (max-width: 680px) {
-    .banner-section .left-part .text-part h2{
-        max-width: 100%;
-        font-size: 30px;
-        text-align: center;
-    }
-    .banner-section .left-part .text-part p{
-        max-width: 100%;
-        text-align: center;
-    }
-    .banner-section .left-part  .text-part{
-        text-align: center;
-    }
-    .banner-section .text-image-part .image-part img{
-        display: none;
-    }
-    .banner-section .left-part .text-part h2, .banner-section .left-part .text-part p{
-        margin-bottom: 20px;
-    }
-    .banner-section .text-image-part .image-part .time-part {
-        font-size: 17px;
-        top: -18px;
-        right: auto;
-        text-align: center;
-    }
-    .banner-section .box-part .box{
-        width: 100%;
-    }
-    .second-footer-part .link-barcode-part .right-part {
-        flex-wrap: wrap;
-        text-align: center;
-        justify-content: center;
-        gap: 20px;
-    }
-    .footer-part .link-barcode-part .right-part .adress p {
-        text-align: center;
-    }
-    .social-media-link-part{
-        margin-top: 20px;
-    }
-    .social-media-link-part {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 15px;
-        justify-content: center;
-    }
-    .second-footer-part .link-barcode-part .left-part h6{
-        margin-bottom: 10px;
-    }
-    .top-footer-part .left-part h2 {
-        font-size: 40px;
-        text-align: center;
-    }
-    .top-footer-part .left-part{
-        width: 100%;
-    }
-    .top-footer-part{
-        padding: 30px 0;
-    }
-    .banner-section{
-        padding: 20px 0;
-    }
-    .header-part .navbar .navbar-brand img {
-        width: 75%;
-    }
 }
 
 
@@ -723,12 +488,193 @@ body {
     text-transform: lowercase;
     margin: 0;
   }
-  /* --@ responsive css for second section @-- */
-  @media (max-width: 1750px) {
+ 
+  /* -----second section css end----- */
+
+
+  /* missin section start here */
+
+  .home-page .mission-section {
+    background: linear-gradient(to bottom, #FCD13980, #FFFFFF, #FFFFFF, #8CD29780);
+    padding: 50px 0;
+  }
+  .home-page .mission-section .content-title {
+    font-size: 84px;
+    text-align: center;
+  }
+  .home-page .mission-section .content-row {
+    display: flex;
+    column-gap: 52px;
+    margin-top: 73px;
+    align-items: center;
+    /* flex-wrap: wrap; */
+  }
+  .home-page .mission-section .content-row .row-title {
+    font-size: 48px;
+    text-align: right;
+  }
+  .home-page .mission-section .content-row .row-card {
+    border: 1px solid #000;
+    padding: 32px;
+    border-radius: 30px;
+    text-align: center;
+    max-width: 315px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    height: 220px;
+    /* max-height: 228px; */
+    z-index: 2;
+  }
+  .home-page .mission-section .content-row .large-card-width {
+    max-width: 450px;
+  }
+  .home-page .mission-section .content-row .row-card .line-break {
+    height: 3px;
+    width: 64px;
+    border-top: 3px solid #000;
+    margin: 20px 0 14px 0;
+  }
+  .home-page .mission-section .content-row .row-card .row-card-title {
+    font-size: 32px;
+  }
+  .home-page .mission-section .content-row .row-card .row-card-content {
+    font-size: 24px;
+    margin: auto;
+  }
+  .home-page .mission-section .content-row .row-button {
+    border-radius: 83px;
+    background: #023A4E;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    padding: 12px 70px;
+    margin-left: -35px;
+    z-index: 1;
+    border: 0;
+    transition: all 0.5s;
+  }
+  .home-page .mission-section .content-row .row-button:hover{
+    transform: scale(1.05);
+  }
+  .home-page .mission-section .content-title-with-shadow {
+    color: #000235;
+    text-align: center;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 96px;
+    font-weight: 700;
+    letter-spacing: 19.2px;
+    margin-top: 73px;
+  }
+  .home-page .mission-section .content-row .row-card.second-row-card-padding {
+    width: 360px;
+    max-width: 360px;
+  }
+  .home-page .mission-section .content-row.second-row {
+    column-gap: 230px;
+  }
+
+
+
+   /* --@ responsive css for second section @-- */
+   @media (max-width: 1750px) {
     .content-wrapper .right-part .section-head {
       font-size: 60px;
     }
+    .home-page .mission-section .content-row {
+        gap: 25px;
+      }
+      .home-page .mission-section .content-row .row-card {
+        /* height: 100%; */
+        justify-content: flex-start;
+      }
+      .home-page .mission-section .content-row .row-card .row-card-title {
+        font-size: 26px;
+        white-space: nowrap;
+      }
+      .home-page .mission-section .content-row .row-card .row-card-content {
+        font-size: 20px;
+      }
+      .home-page .mission-section .content-title {
+        font-size: 72px;
+      }
+      .home-page .mission-section .content-title-with-shadow {
+        font-size: 84px;
+      }
+      .home-page .mission-section .content-row.second-row {
+        column-gap: 90px;
+      }
+      .home-page .mission-section .content-row .row-button {
+        margin-left: -30px;
+      }
+      .home-page .mission-section .content-row .row-title {
+        font-size: 36px;
+      }
   }
+@media screen and (max-width: 1660px) {
+    .header-part .navbar .navbar-nav .nav-link{
+        margin-right: 24px;
+    }
+    .banner-section .box-part{
+        gap: 16px;
+    }
+    .banner-section .box-part .box{
+        width: 48%;
+        height: 260px;
+    }
+    .container {
+        max-width: 95%;
+    }
+    .banner-section .left-part .text-part p{
+        max-width: 25%;
+    }
+    .banner-section .ev-logo-part img{
+        width: 70%;
+    }
+    .banner-section .text-image-part .image-part .time-part {
+        position: absolute;
+        top: 36px;
+        right: 100px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .header-part .navbar .navbar-brand img {
+        width: 60%;
+    }
+    .header-part .navbar .navbar-nav .nav-link{
+        font-size: 24px;
+    }
+    .banner-section .left-part .text-part h2{
+        font-size: 70px;
+    }
+    .banner-section .left-part .text-part p{
+        font-size: 24px;
+    }
+    .banner-section .box-part .box h6{
+        font-size: 24px;
+    }
+    .banner-section .box-part .box p{
+        font-size: 18px;
+    }
+    .banner-section .text-image-part .image-part{
+        width: 76%;
+        right: -40px;
+    }
+    .banner-section .text-image-part .image-part .time-part{
+        font-size: 24px;
+        top: 38px;
+        right: 80px;
+    }
+    .banner-section .box-part .box{
+        height: 200px;
+    }
+    .ev-logo-part img{
+        width: 70%;
+    }
+}
+
   @media (max-width: 1500px) {
     .secondsection .container {
       max-width: 95%;
@@ -787,8 +733,91 @@ body {
       height: 2px;
       min-height: 2px;
     }
+    .home-page .mission-section .content-row.second-row {
+        column-gap: 37px;
+      }
+      .home-page .mission-section .content-row .row-button {
+        font-size: 30px;
+        padding-left: 68px;
+        padding-right: 46px;
+      }
+      .home-page .mission-section .content-row {
+        flex-wrap: wrap;
+      }
+      .home-page .mission-section .content-row .row-card {
+        max-width: 240px;
+        height: 230px;
+        padding: 20px;
+      }
+      .home-page .mission-section .content-row .large-card-width {
+        max-width: 350px;
+      }
   }
-  @media (max-width: 1199px) {
+  @media screen and (max-width: 1366px) {
+    .top-footer-part .center-part .text-part .signIn-btn{
+        font-size: 30px;
+    }
+    .second-footer-part .link-barcode-part .left-part h6{
+        font-size: 32px;
+    }
+    .top-footer-part .left-part h2{
+        font-size: 80px;
+    }
+  }
+@media screen and (max-width: 1280px) {
+    .banner-section .left-part .text-part h2 {
+        font-size: 56px;
+    }
+    .header-part .navbar .navbar-nav .nav-link{
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    .banner-section .box-part .box{
+        padding: 20px 14px;
+    }
+    .top-footer-part .center-part .text-part p{
+        font-size: 24px;
+    }
+    .top-footer-part .center-part .text-part .signIn-btn{
+        font-size: 24px;
+    }
+    .top-footer-part .left-part h2{
+        font-size: 80px;
+    }
+    .second-footer-part .link-barcode-part .left-part h6{
+        font-size: 26px;
+    }
+    .second-footer-part .link-barcode-part .left-part p, .second-footer-part .link-barcode-part .right-part .adress p{
+        font-size: 28px;
+    }
+    .social-media-part p{
+        font-size: 32px;
+    }
+    .home-page .mission-section .content-row {
+        gap: 14px;
+      }
+      .home-page .mission-section .content-row .row-card{
+        max-width: 240px;
+        height: 190px;
+        padding: 12px;
+      }
+      .home-page .mission-section .content-row .large-card-width {
+        max-width: 316px;
+      }
+      .home-page .mission-section .content-row .row-title {
+        font-size: 32px
+      }
+      .home-page .mission-section .container {
+        max-width: 95%;
+      }
+      .home-page .mission-section .content-title {
+        font-size: 64px;
+      }
+      .home-page .mission-section .content-title-with-shadow {
+        font-size: 72px;
+      }
+}
+@media (max-width: 1199px) {
     .content-wrapper .right-part .section-head {
       font-size: 38px;
     }
@@ -816,68 +845,201 @@ body {
       right: 18px;
     }
   }
-  @media (min-width: 992px) {
+@media screen and (max-width: 1120px) {
+    .banner-section .box-part .box h6{
+        font-size: 18px;
+    }
+    .banner-section .box-part .box p{
+        font-size: 14px;
+    }
+    .banner-section .text-image-part .image-part .time-part {
+        font-size: 17px;
+        top: 32px;
+        right: 80px;
+    }
+    .banner-section .left-part .text-part .outline-btn{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .banner-section .box-part {
+        gap: 12px;
+        margin-bottom: 40px;
+    }
+    .banner-section .box-part .box{
+        height: 170px;
+    }
+    .banner-section .left-part .text-part h2 {
+        font-size: 46px;
+        margin-bottom: 40px;
+    }
+    .banner-section .left-part .text-part p{
+        margin-bottom: 40px;
+    }
+    .top-footer-part .left-part h2{
+        font-size: 60px;
+    }
+    .second-footer-part .link-barcode-part .left-part h6 {
+        font-size: 22px;
+    }
+    .second-footer-part .link-barcode-part .left-part p, .second-footer-part .link-barcode-part .right-part .adress p {
+        font-size: 20px;
+    }
+    .social-media-part{
+        max-width: 90%;
+    }
+    .home-page .mission-section .content-row{
+        justify-content: center;
+    }
+    .home-page .mission-section .content-row .row-card{
+        width: 42%;
+        max-width: 42% !important;
+    }
+    .home-page .mission-section .content-row.second-row{
+        justify-content: center !important;
+    margin: auto;
+    margin-top: 2rem;
+    }
+    .home-page .mission-section .content-row.second-row .d-flex{
+        width: 100%;
+        justify-content: center;
+    }
+    .top-footer-part .center-part .text-part p {
+        font-size: 20px;
+    }
+    .top-footer-part .left-part h2 {
+        font-size: 50px;
+    }
+    .second-footer-part .link-barcode-part .left-part h6 {
+        font-size: 26px !important;
+    }
+}
+@media (min-width: 992px) {
     .secondsection .content-wrapper.d-mobile {
       display: none;
     }
   }
-  @media (max-width: 991px) {
+@media screen and (max-width:991px) {
+    .header-part .navbar .navbar-nav .nav-link{
+        margin-bottom: 16px;
+    }
+    .banner-section .box-part{
+        margin-top: 30px;
+        gap: 20px;
+    }
+    .banner-section .ev-logo-part {
+        display: flex;
+        justify-content: center;
+    }
+    .banner-section .box-part .box h6 {
+        font-size: 22px;
+    }
+    .banner-section .box-part .box p {
+        font-size: 18px;
+    }
+    .banner-section .text-image-part .image-part {
+        width: 80%;
+    }
+    .top-footer-part{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .top-footer-part .right-part, .top-footer-part .center-part{
+        flex: auto;
+    }
+    .second-footer-part .link-barcode-part{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .second-footer-part .link-barcode-part .left-part{
+        width: 100%;
+        text-align: center;
+    }
+    .second-footer-part{
+        padding: 50px 0;
+    }
+    .social-media-part{
+        padding-top: 50px;
+    }.social-media-link-part a img{
+        width: 40px;
+    }
+    .banner-section .text-image-part .image-part{
+        right: -20px;
+    }
     .secondsection .content-wrapper.d-desktop {
-      display: none;
+        display: none;
+      }
+      .secondsection .content-wrapper.d-mobile {
+        grid-template-columns: 100%;
+        row-gap: 45px;
+      }
+      .secondsection .content-wrapper .right-part {
+        align-items: center;
+        gap: 20px;
+      }
+      .content-wrapper .right-part .image-block img {
+        width: 50%;
+      }
+      .content-wrapper .right-part .image-block {
+        align-items: center;
+        justify-content: center;
+      }
+      .content-wrapper .right-part .image-block .text-block {
+        top: 10%;
+        right: 30%;
+      }
+      .secondsection .content-wrapper .left-part {
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+      .secondsection .content-wrapper .left-part .card-row {
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+      .secondsection .content-wrapper .left-part .card-row .card-box {
+        width: 40%;
+        /* min-width: 40%; */
+        padding: 26px 13px;
+        height: 165px;
+      }
+      .content-wrapper .right-part .section-head {
+        white-space: unset;
+        text-align: center;
+      }
+      .home-page .secondsection {
+        padding: 40px 0;
+      }
+      .secondsection .content-wrapper .left-part .card-row .card-box .title-text {
+        font-size: 24px;
+      }
+      .secondsection .content-wrapper .left-part .card-row .card-box .line {
+        width: 30px;
+      }
+      .secondsection .content-wrapper .left-part .card-row .card-box .desc {
+        font-size: 16px;
+      }
+      .top-footer-part .left-part{
+          width: 100%;
+          text-align: center;
+      }
+      .top-footer-part .center-part .text-part{
+          text-align: center;
+      }.home-page .mission-section .content-row .row-card{
+          height: 220px !important;
+      }
+      .home-page .mission-section .content-row .row-card{
+          justify-content: center !important;
+      }
+      .home-page .mission-section .content-row .row-card .row-card-content{
+          margin: 0 !important;
+      }
+      .home-page .mission-section .content-title {
+        font-size: 40px ;
     }
-    .secondsection .content-wrapper.d-mobile {
-      grid-template-columns: 100%;
-      row-gap: 45px;
-    }
-    .secondsection .content-wrapper .right-part {
-      align-items: center;
-      gap: 20px;
-    }
-    .content-wrapper .right-part .image-block img {
-      width: 50%;
-    }
-    .content-wrapper .right-part .image-block {
-      align-items: center;
-      justify-content: center;
-    }
-    .content-wrapper .right-part .image-block .text-block {
-      top: 10%;
-      right: 30%;
-    }
-    .secondsection .content-wrapper .left-part {
-      align-items: center;
-      justify-content: center;
-      gap: 20px;
-    }
-    .secondsection .content-wrapper .left-part .card-row {
-      align-items: center;
-      justify-content: center;
-      gap: 20px;
-    }
-    .secondsection .content-wrapper .left-part .card-row .card-box {
-      width: 40%;
-      /* min-width: 40%; */
-      padding: 26px 13px;
-      height: 165px;
-    }
-    .content-wrapper .right-part .section-head {
-      white-space: unset;
-      text-align: center;
-    }
-    .home-page .secondsection {
-      padding: 40px 0;
-    }
-    .secondsection .content-wrapper .left-part .card-row .card-box .title-text {
-      font-size: 24px;
-    }
-    .secondsection .content-wrapper .left-part .card-row .card-box .line {
-      width: 30px;
-    }
-    .secondsection .content-wrapper .left-part .card-row .card-box .desc {
-      font-size: 16px;
-    }
-  }
-  @media (max-width: 767px) {
+}
+@media screen and (max-width: 767px) {
     .content-wrapper .right-part .image-block img {
       width: 65%;
     }
@@ -888,7 +1050,96 @@ body {
       flex: 1;
       min-width: 290px;
     }
+    .home-page .mission-section .content-row .row-card {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .home-page .mission-section .content-row .row-title br{
+        display: none;
+    }
+    .home-page .mission-section .content-row{
+        margin-top: 30px;
+    }
+    .home-page .mission-section .content-title-with-shadow {
+        font-size: 40px;
+        letter-spacing: 10px;
+        margin-top: 30px;
+    }
+    .home-page .mission-section .content-row .row-button{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
   }
+@media screen and (max-width: 680px) {
+    .banner-section .left-part .text-part h2{
+        max-width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .banner-section .left-part .text-part p{
+        max-width: 100%;
+        text-align: center;
+    }
+    .banner-section .left-part  .text-part{
+        text-align: center;
+    }
+    .banner-section .text-image-part .image-part img{
+        display: none;
+    }
+    .banner-section .left-part .text-part h2, .banner-section .left-part .text-part p{
+        margin-bottom: 20px;
+    }
+    .banner-section .text-image-part .image-part .time-part {
+        font-size: 17px;
+        top: -18px;
+        right: auto;
+        text-align: center;
+    }
+    .banner-section .box-part .box{
+        width: 100%;
+    }
+    .second-footer-part .link-barcode-part .right-part {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .footer-part .link-barcode-part .right-part .adress p {
+        text-align: center;
+    }
+    .social-media-link-part{
+        margin-top: 20px;
+    }
+    .social-media-link-part {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+    .second-footer-part .link-barcode-part .left-part h6{
+        margin-bottom: 10px;
+    }
+    .top-footer-part .left-part h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .top-footer-part .left-part{
+        width: 100%;
+    }
+    .top-footer-part{
+        padding: 30px 0;
+    }
+    .banner-section{
+        padding: 20px 0;
+    }
+    .header-part .navbar .navbar-brand img {
+        width: 75%;
+    }
+    .home-page .mission-section .content-title {
+        font-size: 24px;
+    }
+}
+  
   @media (max-width: 575px) {
     .secondsection .content-wrapper .left-part .card-row {
       align-items: center;
@@ -913,10 +1164,15 @@ body {
       top: 8%;
     }
     .secondsection .content-wrapper .left-part .card-row .card-box .title-text {
-      font-size: 18px;
+      font-size: 22px;
+      padding-bottom: 20px;
     }
     .secondsection .content-wrapper .left-part .card-row .card-box .desc {
-      font-size: 14px;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    .secondsection .content-wrapper .left-part .card-row .card-box .line{
+        width: 60px;
     }
   }
   @media (max-width: 425px) {
@@ -933,164 +1189,12 @@ body {
       row-gap: 25px;
     }
   }
-  /* -----second section css end----- */
-
-
-  /* missin section start here */
-
-  .home-page .mission-section {
-    background: linear-gradient(to bottom, #FCD13980, #FFFFFF, #FFFFFF, #8CD29780);
-    padding: 50px 0;
+  
+  .navbar-toggler-icon:focus, .navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
   }
-  .home-page .mission-section .content-title {
-    font-size: 84px;
-    text-align: center;
-  }
-  .home-page .mission-section .content-row {
-    display: flex;
-    column-gap: 52px;
-    margin-top: 73px;
-    align-items: center;
-    /* flex-wrap: wrap; */
-  }
-  .home-page .mission-section .content-row .row-title {
-    font-size: 48px;
-  }
-  .home-page .mission-section .content-row .row-card {
-    border: 1px solid #000;
-    padding: 32px;
-    border-radius: 30px;
-    text-align: center;
-    max-width: 315px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    height: 256px;
-    /* max-height: 228px; */
-    z-index: 2;
-  }
-  .home-page .mission-section .content-row .large-card-width {
-    max-width: 450px;
-  }
-  .home-page .mission-section .content-row .row-card .line-break {
-    height: 3px;
-    width: 64px;
-    border-top: 3px solid #000;
-    margin: 20px 0 14px 0;
-  }
-  .home-page .mission-section .content-row .row-card .row-card-title {
-    font-size: 32px;
-  }
-  .home-page .mission-section .content-row .row-card .row-card-content {
-    font-size: 24px;
-    margin: auto;
-  }
-  .home-page .mission-section .content-row .row-button {
-    border-radius: 83px;
-    background: #023A4E;
-    color: #FFF;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 27.5px;
-    letter-spacing: 4px;
-    height: 73px;
-    padding-left: 80px;
-    padding-right: 58px;
-    margin-left: -35px;
-    z-index: 1;
-  }
-  .home-page .mission-section .content-title-with-shadow {
-    color: #000235;
-    text-align: center;
-    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    font-size: 96px;
-    font-weight: 700;
-    letter-spacing: 19.2px;
-    margin-top: 73px;
-  }
-  .home-page .mission-section .content-row .row-card.second-row-card-padding {
-    width: 420px;
-    max-width: 420px;
-  }
-  .home-page .mission-section .content-row.second-row {
-    column-gap: 230px;
-  }
-  @media (max-width: 1750px) {
-    .home-page .mission-section .content-row {
-      gap: 25px;
-    }
-    .home-page .mission-section .content-row .row-card {
-      /* height: 100%; */
-      justify-content: flex-start;
-    }
-    .home-page .mission-section .content-row .row-card .row-card-title {
-      font-size: 26px;
-      white-space: nowrap;
-    }
-    .home-page .mission-section .content-row .row-card .row-card-content {
-      font-size: 20px;
-    }
-    .home-page .mission-section .content-title {
-      font-size: 72px;
-    }
-    .home-page .mission-section .content-title-with-shadow {
-      font-size: 84px;
-    }
-    .home-page .mission-section .content-row.second-row {
-      column-gap: 90px;
-    }
-    .home-page .mission-section .content-row .row-button {
-      margin-left: -30px;
-    }
-    .home-page .mission-section .content-row .row-title {
-      font-size: 36px;
-    }
-  }
-  @media (max-width: 1440px){
-    .home-page .mission-section .content-row.second-row {
-      column-gap: 37px;
-    }
-    .home-page .mission-section .content-row .row-button {
-      font-size: 30px;
-      height: 62px;
-      padding-left: 68px;
-      padding-right: 46px;
-    }
-    .home-page .mission-section .content-row {
-      flex-wrap: wrap;
-    }
-    .home-page .mission-section .content-row .row-card {
-      max-width: 240px;
-      height: 230px;
-      padding: 20px;
-    }
-    .home-page .mission-section .content-row .large-card-width {
-      max-width: 350px;
-    }
-  }
-  @media (max-width: 1280px){
-    .home-page .mission-section .content-row {
-      gap: 14px;
-    }
-    .home-page .mission-section .content-row .row-card{
-      max-width: 240px;
-      height: 190px;
-      padding: 12px;
-    }
-    .home-page .mission-section .content-row .large-card-width {
-      max-width: 316px;
-    }
-    .home-page .mission-section .content-row .row-title {
-      font-size: 32px
-    }
-    .home-page .mission-section .container {
-      max-width: 95%;
-    }
-    .home-page .mission-section .content-title {
-      font-size: 64px;
-    }
-    .home-page .mission-section .content-title-with-shadow {
-      font-size: 72px;
-    }
+  .navbar-toggler-icon img{
+    width: 50px;
+    margin-top: -16px;
   }
