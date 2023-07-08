@@ -1,0 +1,614 @@
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('../fonts/Outfit-Light.ttf') format('trueType');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/Outfit-Regular.ttf') format('trueType');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts//Outfit-Medium.ttf') format('trueType');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('../fonts/Outfit-SemiBold.ttf') format('trueType');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/Outfit-Bold.ttf') format('trueType');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url('../fonts/Outfit-ExtraBold.ttf') format('trueType');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url('../fonts/Outfit-Black.ttf') format('trueType');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    font-family: 'Outfit';
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 90%;
+}
+
+/* header-part */
+.header-part {
+    border: 0px solid #000;
+    background: linear-gradient(180deg, rgba(140, 210, 210, 0.00) 0%, #FFF 41.46%, #FFF 85.73%, rgba(140, 210, 210, 0.50) 100%);
+}
+
+.header-part .navbar .navbar-brand img {
+    width: 100%;
+}
+
+.header-part .navbar .navbar-nav .nav-link {
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 60px;
+    padding: 0;
+}
+
+.header-part .navbar .navbar-nav .nav-link:hover {
+    color: #023A4E;
+}
+
+.header-part .navbar .navbar-nav .nav-item:last-child .nav-link {
+    margin-right: 0;
+}
+
+.banner-section {
+    padding-bottom: 48px;
+    padding-top: 48px;
+}
+
+.banner-section .left-part .text-part h2 {
+    color: #000;
+    font-size: 84px;
+    font-style: normal;
+    font-weight: 300;
+    max-width: 60%;
+    margin-bottom: 80px;
+}
+
+.banner-section .text-image-part {
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.banner-section .text-image-part .image-part {
+    position: absolute;
+    right: -65px;
+    width: 85%;
+    z-index: -1;
+    bottom: 0;
+}
+
+.banner-section .text-image-part .image-part .time-part {
+    position: absolute;
+    top: 50px;
+    right: 120px;
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 3.2px;
+}
+
+.banner-section .text-image-part .image-part img {
+    width: 100%;
+}
+
+.banner-section .left-part .text-part p {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 90px;
+    max-width: 18%;
+}
+.banner-section .box-part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 80px;
+}
+.banner-section .box-part .box{
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid #000;
+    width: 48%;
+    padding: 30px 14px;
+    margin: auto;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-section .box-part .box h6{
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+    position: relative;
+    padding-bottom: 20px;
+}
+.banner-section .box-part .box h6::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 63px;
+    background-color: #000;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.banner-section .box-part .box p{
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+    margin-top: 20px;
+}
+.banner-section .left-part .text-part .outline-btn {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.5px;
+    letter-spacing: 3.6px;
+    text-transform: lowercase;
+    padding: 22px;
+    border: 1px solid #000;
+    border-radius: 80px;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+.banner-section .ev-logo-part{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-brand{
+    flex: 1;
+}
+
+/* Footer scetion css syart here */
+.top-footer-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+    border-bottom: 1px solid #000;
+}
+
+.top-footer-part .left-part h2 {
+    color: #000;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: lowercase;
+    margin-bottom: 0;
+}
+
+.top-footer-part .center-part .text-part p {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+    margin-bottom: 40px;
+}
+
+.top-footer-part .center-part {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-footer-part .center-part .text-part .signIn-btn {
+    padding: 22px 46px;
+    background-color: #023A4E;
+    border: 1px solid #023A4E;
+    border-radius: 83px;
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27.5px;
+    letter-spacing: 4px;
+    text-transform: lowercase;
+    transition: all 0.6s;
+}
+
+.top-footer-part .center-part .text-part .signIn-btn:hover {
+    transform: scale(1.05);
+}
+
+.top-footer-part .right-part {
+    flex: 2;
+}
+
+.top-footer-part .right-part img {
+    width: 100%;
+}
+
+.second-footer-part {
+    padding: 100px 0;
+}
+
+.second-footer-part .link-barcode-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-footer-part .link-barcode-part .left-part h6 {
+    color: #000;
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 4.8px;
+    margin-bottom: 30px;
+}
+
+.second-footer-part .link-barcode-part .left-part p {
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 3.2px;
+    margin-bottom: 0;
+}
+
+.second-footer-part .link-barcode-part .left-part p a {
+    text-decoration: none;
+    color: #000;
+}
+
+.second-footer-part .link-barcode-part .left-part p a:hover {
+    color: #023A4E;
+}
+
+.second-footer-part .link-barcode-part .right-part {
+    display: flex;
+    align-items: center;
+}
+
+.second-footer-part .link-barcode-part .right-part .adress {
+    margin-right: 30px;
+}
+
+.second-footer-part .link-barcode-part .right-part .adress p {
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 3.2px;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.second-footer-part .link-barcode-part .right-part img {
+    width: 100%;
+}
+
+.social-media-part {
+    padding-top: 118px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.social-media-part p {
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 4.8px;
+    text-align: center;
+}
+
+.social-media-link-part {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.social-media-link-part a {
+    transition: all 0.6s;
+    text-decoration: none;
+}
+
+.social-media-link-part a:hover {
+    transform: scale(1.08);
+}
+
+
+@media screen and (max-width: 1660px) {
+    .header-part .navbar .navbar-nav .nav-link{
+        margin-right: 24px;
+    }
+    .banner-section .box-part{
+        gap: 16px;
+    }
+    .banner-section .box-part .box{
+        width: 48%;
+        height: 260px;
+    }
+    .container {
+        max-width: 95%;
+    }
+    .banner-section .left-part .text-part p{
+        max-width: 20%;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .header-part .navbar .navbar-brand img {
+        width: 60%;
+    }
+    .header-part .navbar .navbar-nav .nav-link{
+        font-size: 24px;
+    }
+    .banner-section .left-part .text-part h2{
+        font-size: 70px;
+    }
+    .banner-section .left-part .text-part p{
+        font-size: 24px;
+    }
+    .banner-section .box-part .box h6{
+        font-size: 24px;
+    }
+    .banner-section .box-part .box p{
+        font-size: 18px;
+    }
+    .banner-section .text-image-part .image-part{
+        width: 76%;
+        right: -40px;
+    }
+    .banner-section .text-image-part .image-part .time-part{
+        font-size: 24px;
+        top: 38px;
+        right: 80px;
+    }
+    .banner-section .box-part .box{
+        height: 200px;
+    }
+    .ev-logo-part img{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .banner-section .left-part .text-part h2 {
+        font-size: 56px;
+    }
+    .header-part .navbar .navbar-nav .nav-link{
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    .banner-section .box-part .box{
+        padding: 20px 14px;
+    }
+    .top-footer-part .center-part .text-part p{
+        font-size: 24px;
+    }
+    .top-footer-part .center-part .text-part .signIn-btn{
+        font-size: 24px;
+    }
+    .top-footer-part .left-part h2{
+        font-size: 80px;
+    }
+    .second-footer-part .link-barcode-part .left-part h6{
+        font-size: 26px;
+    }
+    .second-footer-part .link-barcode-part .left-part p, .second-footer-part .link-barcode-part .right-part .adress p{
+        font-size: 28px;
+    }
+    .social-media-part p{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 1120px) {
+    .banner-section .box-part .box h6{
+        font-size: 18px;
+    }
+    .banner-section .box-part .box p{
+        font-size: 14px;
+    }
+    .banner-section .text-image-part .image-part .time-part {
+        font-size: 17px;
+        top: 32px;
+        right: 80px;
+    }
+    .banner-section .left-part .text-part .outline-btn{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .banner-section .box-part {
+        gap: 12px;
+        margin-bottom: 40px;
+    }
+    .banner-section .box-part .box{
+        height: 170px;
+    }
+    .banner-section .left-part .text-part h2 {
+        font-size: 46px;
+        margin-bottom: 40px;
+    }
+    .banner-section .left-part .text-part p{
+        margin-bottom: 40px;
+    }
+    .top-footer-part .left-part h2{
+        font-size: 60px;
+    }
+    .second-footer-part .link-barcode-part .left-part h6 {
+        font-size: 22px;
+    }
+    .second-footer-part .link-barcode-part .left-part p, .second-footer-part .link-barcode-part .right-part .adress p {
+        font-size: 20px;
+    }
+    .social-media-part{
+        max-width: 90%;
+    }
+}
+@media screen and (max-width:991px) {
+    .banner-section .box-part{
+        margin-top: 30px;
+        gap: 20px;
+    }
+    .banner-section .ev-logo-part {
+        display: flex;
+        justify-content: center;
+    }
+    .banner-section .box-part .box h6 {
+        font-size: 22px;
+    }
+    .banner-section .box-part .box p {
+        font-size: 18px;
+    }
+    .banner-section .text-image-part .image-part {
+        width: 80%;
+    }
+    .top-footer-part{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .top-footer-part .right-part, .top-footer-part .center-part{
+        flex: auto;
+    }
+    .second-footer-part .link-barcode-part{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .second-footer-part .link-barcode-part .left-part{
+        width: 100%;
+        text-align: center;
+    }
+    .second-footer-part{
+        padding: 50px 0;
+    }
+    .social-media-part{
+        padding-top: 50px;
+    }.social-media-link-part a img{
+        width: 40px;
+    }
+    .banner-section .text-image-part .image-part{
+        right: -20px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .banner-section .left-part .text-part h2{
+        max-width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .banner-section .left-part .text-part p{
+        max-width: 100%;
+        text-align: center;
+    }
+    .banner-section .left-part  .text-part{
+        text-align: center;
+    }
+    .banner-section .text-image-part .image-part img{
+        display: none;
+    }
+    .banner-section .left-part .text-part h2, .banner-section .left-part .text-part p{
+        margin-bottom: 20px;
+    }
+    .banner-section .text-image-part .image-part .time-part {
+        font-size: 17px;
+        top: -18px;
+        right: auto;
+        text-align: center;
+    }
+    .banner-section .box-part .box{
+        width: 100%;
+    }
+    .second-footer-part .link-barcode-part .right-part {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .footer-part .link-barcode-part .right-part .adress p {
+        text-align: center;
+    }
+    .social-media-link-part{
+        margin-top: 20px;
+    }
+    .social-media-link-part {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+    .second-footer-part .link-barcode-part .left-part h6{
+        margin-bottom: 10px;
+    }
+    .top-footer-part .left-part h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .top-footer-part .left-part{
+        width: 100%;
+    }
+    .top-footer-part{
+        padding: 30px 0;
+    }
+    .banner-section{
+        padding: 20px 0;
+    }
+    .header-part .navbar .navbar-brand img {
+        width: 75%;
+    }
+}
