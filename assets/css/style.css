@@ -76,6 +76,7 @@ body {
     background: linear-gradient(180deg, rgba(140, 210, 210, 0.00) 0%, #FFF 41.46%, #FFF 85.73%, rgba(140, 210, 210, 0.50) 100%);
     background-image: url('../images/bg.svg');
     background-size: cover;
+    background-position: center;
 }
 
 .header-part .navbar .navbar-brand img {
@@ -523,7 +524,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100%;
-    height: 220px;
+    height: 240px;
     /* max-height: 228px; */
     z-index: 2;
   }
@@ -576,8 +577,25 @@ body {
     column-gap: 230px;
   }
 
-
-
+.line-setup{
+  position: relative;
+  z-index: 2;
+}
+.line-setup::after{
+  position: absolute;
+  content: '';
+  background-image: url('../images/line.png');
+  background-size: 68%;
+  height: 100%;
+  width: 100%;
+  bottom: 114px;
+  left: 58px;
+  right: 0;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  z-index: -1;
+}
    /* --@ responsive css for second section @-- */
    @media (max-width: 1750px) {
     .content-wrapper .right-part .section-head {
@@ -612,6 +630,9 @@ body {
       .home-page .mission-section .content-row .row-title {
         font-size: 36px;
       }
+      .line-setup::after{
+        bottom: 102px;
+      }
   }
 @media screen and (max-width: 1660px) {
     .header-part .navbar .navbar-nav .nav-link{
@@ -637,6 +658,9 @@ body {
         position: absolute;
         top: 36px;
         right: 100px;
+    }
+    .line-setup::after{
+      bottom: 150px;
     }
 }
 @media screen and (max-width: 1440px) {
@@ -673,6 +697,14 @@ body {
     .ev-logo-part img{
         width: 70%;
     }
+    .line-setup::after {
+      bottom: 80px;
+      left: 60px;
+      background-size: 62%;
+  }
+  .home-page .mission-section .content-row .row-card{
+    height: 220px;
+  }
 }
 
   @media (max-width: 1500px) {
@@ -816,6 +848,11 @@ body {
       .home-page .mission-section .content-title-with-shadow {
         font-size: 72px;
       }
+      .line-setup::after {
+        bottom: 100px;
+        left: 60px;
+        background-size: 62%;
+    }
 }
 @media (max-width: 1199px) {
     .content-wrapper .right-part .section-head {
@@ -913,6 +950,11 @@ body {
     .second-footer-part .link-barcode-part .left-part h6 {
         font-size: 26px !important;
     }
+    .line-setup::after {
+      bottom: 55px;
+      left: 54px;
+      background-size: 62%;
+  }
 }
 @media (min-width: 992px) {
     .secondsection .content-wrapper.d-mobile {
@@ -938,8 +980,11 @@ body {
         font-size: 18px;
     }
     .banner-section .text-image-part .image-part {
-        width: 80%;
+        width: 60%;
     }
+    .banner-section .ev-logo-part img {
+      width: 60%;
+  }
     .top-footer-part{
         flex-wrap: wrap;
         gap: 30px;
@@ -1038,6 +1083,9 @@ body {
       .home-page .mission-section .content-title {
         font-size: 40px ;
     }
+    .line-setup::after{
+      display: none;
+    }
 }
 @media screen and (max-width: 767px) {
     .content-wrapper .right-part .image-block img {
@@ -1083,16 +1131,27 @@ body {
     .banner-section .left-part  .text-part{
         text-align: center;
     }
+    .banner-section .left-part .text-part .outline-btn{
+      margin-bottom: 20px;
+    }
     .banner-section .text-image-part .image-part img{
-        display: none;
+      display: block;
+    }
+    .banner-section .text-image-part .image-part{
+      position: relative;
+      width: 100%;
+    }
+    .banner-section .text-image-part{
+      flex-wrap: wrap;
+      justify-content: center;
     }
     .banner-section .left-part .text-part h2, .banner-section .left-part .text-part p{
         margin-bottom: 20px;
     }
     .banner-section .text-image-part .image-part .time-part {
         font-size: 17px;
-        top: -18px;
-        right: auto;
+        top: 20px;
+    right: 60px;
         text-align: center;
     }
     .banner-section .box-part .box{
